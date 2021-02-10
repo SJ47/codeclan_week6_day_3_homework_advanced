@@ -16,5 +16,6 @@ UpperCaser.prototype.toUpperCase = function () {
     //re-refactored
     return this.words.map(word => word.toUpperCase())
 }
+
 module.exports = UpperCaser;
 
