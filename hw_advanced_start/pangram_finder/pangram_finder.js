@@ -3,7 +3,10 @@ const PangramFinder = function (phrase) {
 }
 
 PangramFinder.prototype.isPangram = function () {
-
+  return this.alphabet.every((letter, index, phrase) => {
+    return letter;
+  })
 }
 
 module.exports = PangramFinder;
+
